@@ -1,0 +1,35 @@
+<!DOCTYPE html5>
+ <html>
+    <head>
+            <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="home">
+                <h1>HOME</h1>
+                <div>
+                    <h1 class="score" id="home-sc-el">0</h1>
+                        <div class="btn-ps">
+                            <button class="btn" class="+1-btn" onclick="homeAdd1(); highlight()">+1</button>
+                            <button class="btn" class="+2-btn" onclick="homeAdd2(); highlight()">+2</button>
+                            <button class="btn" class="+3-btn" onclick="homeAdd3(); highlight()">+3</button>
+                        </div>
+                </div>
+            </div>
+            <div id="guest">
+                <h1>GUEST</h1>
+                <div>
+                    <h1 class="score" id="guest-sc-el">0</h1>
+                        <div class="btn-ps">
+                            <button class="btn" class="+1-btn" onclick="guestAdd1(); highlight()">+1</button>
+                            <button class="btn" class="+2-btn" onclick="guestAdd2(); highlight()">+2</button>
+                            <button class="btn" class="+3-btn" onclick="guestAdd3(); highlight()">+3</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn" id="btn-reset" onclick="startgame()">START GAME</button>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+
+ </html>
