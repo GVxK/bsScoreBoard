@@ -51,23 +51,17 @@ table {
     font-family: digit;
     src: url(ds-digit.ttf);
 }
-
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 400%;
     font-weight: bold;
     text-align: center;
 }
-
-
 body {
     background: #6d0000;
     background-size:cover;
     color: #d6d5c9;
     margin: 0px;
-    
- 
-    
 }
 #main {
     display: flex;
@@ -76,15 +70,6 @@ body {
     margin-top: 20;
     
 }
-
-#home {
-    
-}
-
-#guest {
-    
-}
-
 .score {
     font-family: digit;
     background-color: #0a100d;
@@ -100,7 +85,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 .btn {
     border: 2px solid #d6d5c9;
     background-color: #6d0000;
@@ -113,15 +97,12 @@ body {
     margin: 0 5;
     width: 60px;
 }
-
 .btn-ps {
     text-align: center;
     margin-top: 40px;
 }
-
 #btn-reset {
     display: block;
     margin: 50 auto;
     width: 200px;
-    
 }
