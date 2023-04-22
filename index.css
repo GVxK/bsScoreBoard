@@ -30,9 +30,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
+    
 }
 blockquote, q {
 	quotes: none;
@@ -62,12 +64,14 @@ body {
     background-size:cover;
     color: #d6d5c9;
     margin: 0px;
+    
 }
 #main {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20;
+    
     
 }
 .score {
@@ -78,12 +82,14 @@ body {
     margin: 30px 80px 20px 80px;
     font-size:200px;
     padding: 0px 80px;
+    margin:0px 10px 0px 10px;
     border: 3px solid #d6d5c9;
     width: 200px;
     border: 2px solid #d6d5c9;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .btn {
     border: 2px solid #d6d5c9;
